@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2366104-747c-4559-8fc8-a500b6edb6f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/e-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/LinkItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/ExploreIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/HomeIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/ProfileIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icons/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constant/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/manage/comments/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/manage/courses/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(dashboard)/study/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/MenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/BookIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/CommentIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/GroupIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/OrderIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/PersonalIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icons/StorageIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constant/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(dashboard)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -47,6 +49,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -56,23 +61,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/WorkSpace/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "F:\\WorkSpace\\e-learning\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/sidebar-component&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/WorkSpace/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\WorkSpace\\e-learning\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\e-learning\src\app\(dashboard)" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,6 +95,10 @@
       <workItem from="1722330326390" duration="38000" />
       <workItem from="1722335579161" duration="4717000" />
       <workItem from="1722346979136" duration="2842000" />
+      <workItem from="1722429812203" duration="88000" />
+      <workItem from="1722429909609" duration="6627000" />
+      <workItem from="1722503934395" duration="4803000" />
+      <workItem from="1723471890111" duration="124000" />
     </task>
     <servers />
   </component>
