@@ -7,4 +7,13 @@ type TMenuItemProps = {
   label: string;
 };
 
-export type { TMenuItemProps };
+type TCourseItem = {
+  id: number;
+  urlImg: string;
+  title: string;
+  rating: string;
+  view: string;
+  price: string;
+};
+
+export type { TMenuItemProps, TCourseItem };
